@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layouts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburguer"></span>
+            </button>
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="conquering responsive layouts">
+            </a>
+    
+            <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--btn">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container row">
+            <div class="hero__title">
+                <h1>Responsive layouts <span class="emphasis">dont't have to be a struggle</span></h1>
+            </div>
+            <div class="hero__text">
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <a href="#" class="btn">I want to learn</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="three-column">
+        <div class="container row">
+            <div class="col">
+                <h2 class="section__title">
+                    Mobile-first
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.
+                </p>
+            </div>
+            <div class="col">
+                <h2 class="section__title">
+                    Efficient
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam 
+                </p>
+            </div>
+            <div class="col">
+                <h2 class="section__title">
+                    Done right
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <main class="main container row">
+        <section class="primary-content">
+            <h2 class="main__title">It doesn’t have to be so hard</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <img src="img/the-image.jpg" class="main__img" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+        </section>
+        <aside class="sidebar">
+            <div class="sidebar__text">
+                <h2 class="sidebar__title">Break it down</h2>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliq.
+                </p>
+            </div>
+            <div class="sidebar__text">
+                <h2 class="sidebar__title">Work your way up</h2>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="sidebar__text">
+                <h2 class="sidebar__title"></h2>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+        </aside>
+   </main>
+
+   <footer class="footer">
+     <div class="container">
+        <h2 class="footer__title">
+            just scratching the surface
+        </h2>
+            <section class="four-column row">
+                <div class="footer__col">
+                    <h3 class="col__title">About our company</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="col__title">Getting around</h3>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Contact</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="col__title">Other things</h3>
+                    <p>Lorem ipsum</p>
+                    <p>dolor</p>
+                    <p>sit amet</p>
+                    <p>consectetur</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="col__title">And more</h3>
+                    <p>Lorem ipsum</p>
+                    <p>dolor</p>
+                    <p>sit amet</p>
+                    <p>consectetur</p>
+                </div>
+            </section>
+        </div>
+   </footer>
+
+   <script src="main.js"></script>
+</body>
+
+</html>
